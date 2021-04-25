@@ -1,0 +1,45 @@
+
+body {
+  background-color: #212845;
+  color: #FFFFF3;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-family: fenwick, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.crimes {
+  max-width: 1000px;
+  min-width: 800px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crimeImage {
+  display:block;
+  position: relative;
+  height:500px;
+  max-width:500px;
+}
+
+.crimeImage img {
+  max-height:500px;
+  max-width:500px;
+
+  position: absolute;
+  top:0px;
+  left:0px;
+
+  object-fit: contain;
+
+  transition: opacity 1s 0.4s;
+}
+
+.compImg {
+  opacity: 0;
+}
