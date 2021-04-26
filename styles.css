@@ -12,6 +12,68 @@ h1 {
   font-style: normal;
 }
 
+h3 {
+  font-family: fenwick, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5em;
+}
+
+h2  {
+  font-family: fenwick, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  color: #F05D5E;
+}
+
+p {
+  font-family: gesta, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+
+
+.measures {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  min-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.measure {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.measure h1 {
+  display:block;
+  margin-left: 24px;
+  margin-top: 0px;
+}
+
+.measure img {
+  height: 70px;
+  width: 70px;
+}
+
+
+iframe {
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+
+.line {
+  height:100px;
+}
+
 .crimes {
   max-width: 1000px;
   min-width: 800px;
@@ -23,8 +85,23 @@ h1 {
 .crimeImage {
   display:block;
   position: relative;
-  height:500px;
-  max-width:500px;
+  height: 500px;
+  width: 500px;
+}
+
+.crimeSection {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.crimeDesc {
+  display: block;
+  width: 400px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+
 }
 
 .crimeImage img {
